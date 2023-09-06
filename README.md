@@ -11,12 +11,16 @@ This project focuses on the design of a low-power and low-energy VLSI Domino Log
 ### Project Details
 
 #### A) Conventional Diode Footed Domino Logic OR Gate
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/3f7eb301-882b-4e97-94f7-47d4fd537510)
+
 
 - The Conventional Diode Footed Domino Logic OR gate includes an NMOS transistor in a diode configuration in series with the evaluation network.
 - The diode footer (M1) reduces sub-threshold leakage due to stacking effects, but it can lead to performance degradation.
 - A mirror transistor (M2) is employed to enhance performance characteristics.
 
 ##### Implementation
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/79b04585-345f-466d-83b8-941e8c9ea207)
+
 
 - Circuit design of the Diode Footed Domino Logic OR gate using Cadence platform for 180nm technology with a supply voltage of 1.8V and 100 MHz frequency.
 - Characterization of transistors in saturation region.
@@ -25,12 +29,16 @@ This project focuses on the design of a low-power and low-energy VLSI Domino Log
 - Comparison of the proposed technique with existing conventional techniques in terms of power, area, and delay.
 
 #### B) Modified Conventional Design Proposed Circuit for Domino Logic OR Gate
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/e931e1cf-2450-4bdd-beab-2053de8bda24)
+
 
 - The Modified Conventional Design Proposed Circuit includes an extra enable signal to ensure a static output even in the pre-charge phase.
 - Circuit operation involves dynamic node charging and discharging based on input logic.
 - An external enable signal ensures proper functioning and allows multiple transitions.
 
 ##### Implementation
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/cfda3f9b-edde-493e-9133-812e6822f2a5)
+
 
 - Circuit design of the Modified Conventional Design Proposed Circuit for Domino Logic OR gate using Cadence platform for 180nm technology with a supply voltage of 1.8V and 100 MHz frequency.
 - Characterization of transistors in saturation region.
@@ -40,8 +48,10 @@ This project focuses on the design of a low-power and low-energy VLSI Domino Log
 
 The simulated outcomes of the Domino Logic OR gate are obtained using Cadence Virtuoso with 180nm CMOS technology and a supply voltage of 1.8V. The Diode Footed technique optimizes power dissipation and energy consumption. The proposed circuit method for Domino Logic OR gate design yields better results in terms of power dissipation and static power.
 
-- ![Simulated Transient Output of Diode Footed Domino Logic OR gate](link-to-image1)
-- ![Simulated Transient Output of Proposed Circuit Domino Logic OR gate](link-to-image2)
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/2f361da4-8595-4b94-915d-b3599fe458ce)
+
+![image](https://github.com/Vishwas974/LowPowerDesign/assets/144245060/0d0e3887-44b7-497a-8a92-fa182f085978)
+
 
 #### Table: Comparison of Domino Logic OR gate using different methods
 
@@ -57,6 +67,4 @@ The simulated outcomes of the Domino Logic OR gate are obtained using Cadence Vi
 
 In this project, we calculated power and energy for both the conventional Diode Footed Domino Logic OR gate and the modified proposed circuit Domino Logic OR gate, designed for 180nm technology with a 1.8V supply voltage using Cadence Virtuoso. The modified design yields better power dissipation and energy efficiency compared to conventional designs.
 
----
 
-Feel free to replace "link-to-image1" and "link-to-image2" with actual links to the simulated transient output images if you have them. Make sure to provide proper file paths or URLs to your images. Additionally, you can include any additional sections or information that is relevant to your project.
